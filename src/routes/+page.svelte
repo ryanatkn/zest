@@ -14,7 +14,7 @@
 	<section class="box">
 		<header class="box pt_xl">
 			<Svg data={fuz_logo} size="var(--icon_size_xl)" />
-			<h1 class="mt_xl2">fuz_template</h1>
+			<h1 class="mt_xl2">zest</h1>
 		</header>
 		<Card href="{base}/about" icon={''}>about</Card>
 	</section>
