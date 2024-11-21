@@ -11,7 +11,7 @@ export const package_json = {
 	logo: 'logo.svg',
 	logo_alt: 'a friendly pixelated spider facing you',
 	public: true,
-	homepage: 'https://zest.ryanatkn.com/',
+	homepage: 'https://github.com/ryanatkn/zest',
 	repository: 'https://github.com/ryanatkn/zest',
 	scripts: {
 		start: 'gro dev',
