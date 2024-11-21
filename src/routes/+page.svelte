@@ -3,11 +3,6 @@
 	import {fuz_logo} from '@ryanatkn/fuz/logos.js';
 	import Card from '@ryanatkn/fuz/Card.svelte';
 	import {base} from '$app/paths';
-	import {random_item} from '@ryanatkn/belt/random.js';
-
-	import Mreows, {items} from '$routes/Mreows.svelte';
-
-	let mreows: Array<{glyph: string}> | undefined = $state([random_item(items), items[4]]);
 </script>
 
 <main>
@@ -18,7 +13,6 @@
 		</header>
 		<Card href="{base}/about" icon={''}>about</Card>
 	</section>
-	<Mreows bind:mreows />
 </main>
 
 <style>
